@@ -1,0 +1,5 @@
+digraph CompositeRelationships {
+	"OSXPaletteHandler" -> "OSXApplication";
+	"TogglePaletteAction" -> "OSXApplication";
+	"OSXApplication" -> "OSXPaletteHandler";
+}
